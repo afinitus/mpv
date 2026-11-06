@@ -217,7 +217,7 @@ Configurable Options
     seekbar or separately if ``seekbarstyle`` is set to ``bar``.
 
 ``seekrangealpha``
-    Default: 20
+    Default: 200
 
     Alpha of the seekable ranges, 0 (opaque) to 255 (fully transparent).
 
@@ -546,7 +546,7 @@ Configurable Options
     Sets the color of the timecode at hover position in the seekbar.
 
 ``time_pos_outline_color``
-    Default: #FFFFFF
+    Default: #000000
 
     Sets the color of the timecode's outline at hover position in the seekbar.
     Also affects the timecode in the slimbox layout.
