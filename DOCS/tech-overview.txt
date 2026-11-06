@@ -495,7 +495,7 @@ This also enforces some level of modularization, and with some luck the locking
 hierarchy. (Basically, locks of lower components automatically become leaf
 locks.) Another positive effect is simpler memory management.
 
-(Also see e.g.: http://250bpm.com/blog:24)
+(Also see e.g.: https://web.archive.org/web/20201112035212/https://250bpm.com/blog:24/)
 
 Wakeup callbacks
 ----------------
