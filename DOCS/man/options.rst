@@ -7983,8 +7983,9 @@ them.
     This is only relevant when ``--hdr-compute-peak`` is enabled. Higher values
     make the peak decay more slowly, leading to more stable values at the cost
     of more "eye adaptation"-like effects (although this is mitigated somewhat
-    by ``--hdr-scene-threshold``). A value of 0.0 (the lowest possible) disables
-    all averaging, meaning each frame's value is used directly as measured,
+    by ``--hdr-scene-threshold-low`` and ``--hdr-scene-threshold-high``). A
+    value of 0.0 (the lowest possible) disables all averaging, meaning each
+    frame's value is used directly as measured,
     but doing this is not recommended for "noisy" sources since it may lead
     to excessive flicker. (In signal theory terms, this controls the time
     constant "tau" of an IIR low pass filter)
