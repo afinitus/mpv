@@ -80,7 +80,7 @@ Configurable Options
     Default: UP
 ``key_scroll_down``
     Default: DOWN
-``key_scroll_search``
+``key_search``
     Default: /
 ``scroll_lines``
     Default: 1
