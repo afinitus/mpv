@@ -3172,7 +3172,7 @@ Property list
 ``osd-par``
     Last known OSD display pixel aspect (can be 0).
 
-    Alias to ``osd-dimensions/osd-par``.
+    Alias to ``osd-dimensions/par``.
 
 ``osd-dimensions``
     Last known OSD dimensions.
