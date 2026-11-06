@@ -177,7 +177,7 @@ static const m_option_t vf_opts_fields[] = {
         {"temporal-spatial", 4}),
         OPTDEF_INT(3)},
     {"deint", OPT_BOOL(deint_enabled)},
-    {"chroma-deint", OPT_BOOL(opts.chroma_deint), OPTDEF_INT(1)},
+    {"chroma-deint", OPT_BOOL(opts.chroma_deint), OPTDEF_BOOL(true)},
     {"pullup", OPT_BOOL(opts.pullup)},
     {"denoise", OPT_FLOAT(opts.denoise), M_RANGE(0, 1)},
     {"sharpen", OPT_FLOAT(opts.sharpen), M_RANGE(-1, 1)},
